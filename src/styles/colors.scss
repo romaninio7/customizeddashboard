@@ -1,0 +1,28 @@
+:root {
+  --transparent: transparent;
+  --white: #fff;
+  --white1: #f1f3f6;
+  --black: #292929;
+  --black1: #343434;
+
+  --gray: #a9a8a8;
+  --gray1: #c7c6c6;
+
+  --blue1: #2166ac;
+  --blue2: #2470bd;
+
+  --red: #E7423F;
+
+  --allNero25: #f7f7f7;
+
+  --body-background: var(--allNero25);
+  --header-background: var(--blue2);
+  --menu-background: var(--white1);
+  --card-background: var(--white);
+  --modal-background: #cccccc40;
+  --modal-dialog-background: var(--white);
+  --modal-dialog-header-background: var(--blue2);
+  --navigation-item-background: var(--white);
+  --navigation-item-background-hover: var(--white1);
+  --navigation-item-background-active: var(--blue2);
+}

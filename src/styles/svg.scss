@@ -1,0 +1,57 @@
+.svg {
+  display: block;
+  color: inherit;
+  height: inherit;
+  width: inherit;
+  fill: currentColor;
+
+  svg {
+    display: block;
+    width: inherit;
+    height: inherit;
+    color: inherit;
+    fill: currentColor;
+  }
+}
+
+.icon {
+  display: block;
+  transition: color 0.2s ease, color 0.2s ease;
+
+  &.mod-white {
+    color: var(--white)
+  }
+  &.mod-gray {
+    color: var(--gray)
+  }
+  &.mod-blue {
+    color: var(--blue2)
+  }
+  &.mod-red {
+    color: var(--red)
+  }
+
+  &.mod-small {
+    height: 14px;
+    width: 14px;
+  }
+
+  &.mod-middle {
+    height: 16px;
+    width: 16px;
+  }
+
+  &.mod-big {
+    height: 18px;
+    width: 18px;
+  }
+
+  &.mod-large {
+    height: 20px;
+    width: 20px;
+  }
+  &.mod-extra-large {
+    height: 24px;
+    width: 24px;
+  }
+}
